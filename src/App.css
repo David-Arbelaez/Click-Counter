@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 50px;
+    background-color: #4b1b58;
+    color: white;
+    height: auto;
+}
+
+.text{
+    min-height: 500px;
+    text-align: center;
+    align-items: center;
+}
+
+.logo{
+    height: 200px;
+    padding: 20px;
+}
+
+.main-container{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    min-height: 100vh;
+}
+
+.count{
+    width: 100%;
+    height: 50%;
+    background-color: #ece7ed;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #b51362;
+    height: 50%;
+}
